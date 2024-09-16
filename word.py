@@ -46,6 +46,7 @@ def play2(word):
 
     e_time = time.time() - s_time
     print(f'typed in {e_time}')
+    return (True, e_time)
 
 
 # --------------------- Old listen function with thread listener -------------------------
