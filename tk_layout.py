@@ -8,18 +8,21 @@ def add_play(text, func):
     style.configure(style='Primary.Outline.TButton', font=('Helvetica', 25))
     btn = ttk.Button(command=func, text=text, style='Primary.Outline.TButton')
     btn.pack()
+    return btn
 
 
 # Add white space
 def add_frame(parent, bg='white'):
     frame1 = tk.Frame(parent, width=200, height=100, bg=bg)
     frame1.pack()
+    return frame1
 
 
 # Add_title
 def add_title(parent, text, bg='white'):
     title_label = tk.Label(parent, text=text, bg=bg, font=("Arial", "28"))
     title_label.pack()
+    return title_label
 
 
 # Add subtitle

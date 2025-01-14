@@ -3,7 +3,7 @@ from game import Game
 
 root = tk.Tk()
 root.title('Speed typer game')
-root.configure(bg='light grey')
+root.configure(bg='white')
 w = 700
 h = 700
 ws = root.winfo_screenwidth()  # width of the screen
